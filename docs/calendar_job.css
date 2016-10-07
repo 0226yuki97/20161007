@@ -1,0 +1,19 @@
+.calendar_day {
+  width:40px;
+}
+
+.calendar_day_top {
+  display: block;
+  height:20px;
+  background: #aaf;
+}
+
+.calendar_day_under {
+  display: block;
+  height:40px;
+  background: #faa;
+}
+
+#today_button,#last_month_button,#next_month_button,#topMonth {
+display:inline-block;
+}
