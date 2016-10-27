@@ -54,9 +54,9 @@ calemder_wkwk();
   $(".calendar_day_top").each(function(idx, e) {
     var a = idx - fst_week + 1;
 	if(d + fst_week - 1==idx && c==0){
-	$(e).css("background","#00fa9a");
+	$(e).css("background","#aff");
 	}else{
-	$(e).css("background","#aaf");
+	$(e).css("background","#ffc");
 	}
     $(this).html(a > 0 && a <= lastday ? a : "");
   });
